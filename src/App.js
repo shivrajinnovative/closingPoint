@@ -4,7 +4,7 @@ import Layout from './Layout'
 
 export default function App() {
   return (
-   <BrowserRouter>
+   <BrowserRouter basename='/demo'>
     <Routes>
       <Route path="/admin" />  
       <Route path="/login" />  

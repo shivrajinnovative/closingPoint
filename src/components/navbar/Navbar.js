@@ -58,7 +58,7 @@ export default function Navbar() {
 
     return (
         <div className='fixed w-full z-50'>
-            <div className='bg-white font-medium rounded-b-[60px] container-xl shadow-sm mx-auto p-4 pt-3 px-7'>
+            <div className='bg-white font-medium rounded-b-[60px] container-xl  shadow-sm p-4 pt-3 px-7'>
                 <div className="flex items-center justify-between">
                     <div className="flex items-center">
                         <img src={logo} className='w-16' alt="Logo" />

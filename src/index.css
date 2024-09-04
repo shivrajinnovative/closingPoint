@@ -15,7 +15,7 @@ body{
 /* Define the container-xl class with max-widths for different breakpoints */
 .container-xl {
   width: 100%;
-  max-width: 1320px; /* Bootstrap's container-xl max-width */
+  max-width: 1420px; /* Bootstrap's container-xl max-width */
   padding-left: 1.5rem; /* Bootstrap's default horizontal padding */
   padding-right: 1.5rem;
   margin-left: auto;
@@ -25,7 +25,7 @@ body{
 /* Define the container-2xl class with max-widths for different breakpoints */
 .container-2xl {
   width: 100%;
-  max-width: 1536px; /* Custom container-2xl max-width */
+  max-width: 1920px; /* Custom container-2xl max-width */
   margin-left: auto;
   margin-right: auto;
 }
