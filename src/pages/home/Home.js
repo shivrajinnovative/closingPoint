@@ -6,6 +6,10 @@ import ProjectInDemand from './components/ProjectInDemand'
 import UpComingProjects from './components/UpComingProjects'
 import PopularCities from './components/PopularCities'
 import ExplorePopularLocality from './components/ExplorePopularLocality'
+import BHKChoise from './components/BHKChoise'
+import Budget from './components/Budget'
+import TopArticles from './components/TopArticles'
+import Services from './components/Services'
 
 export default function Home() {
   return (
@@ -20,6 +24,10 @@ export default function Home() {
           <div className="bg-[#090E1B]">
             <ExplorePopularLocality/>
           </div>
+          <BHKChoise/>
+          <Budget/>
+          <TopArticles/>
+          <Services/>
           <div className="bg-sky-100">
             <PopularCities/>
           </div>

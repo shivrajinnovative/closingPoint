@@ -46,7 +46,7 @@ export default function PopularCities() {
             <h1 className='text-2xl font-semibold mb-5 md:text-3xl' >Explore Real Estate in Popular Indian Cities</h1>
             <div className="flex flex-wrap">
                 {data.map((item, index) => (
-                    <div key={index} className='flex lg:m-4 cursor-pointer  bg-white rounded-xl  shadow-md hover:shadow-xl   mb-6'>
+                    <div key={index} className='flex lg:m-4 cursor-pointer mb-6'>
                        <div>
                              <img src={item.image} height="140px" width="140px" alt="" />
                        </div>

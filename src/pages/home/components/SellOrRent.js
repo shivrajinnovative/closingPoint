@@ -15,8 +15,8 @@ export default function SellOrRent() {
                             <img src={freeIcon} alt="Free Icon" className="inline-block ms-3" />
                         </h2>
                             <p className='text-sm md:text-lg' >Post your Residential / Commercial Property</p>
-                            <button className='bg-black text-white font-light  mt-10 my-20 py-3 px-7 rounded-full lg:px-20' >Post your <span className='font-medium'>Property for Free</span></button>
-                            <p className='flex w-screen flex-wrap items-center absolute bottom-0 text-sm py-3' >Or post via <img src={whatsappIcon} className='mx-2' width="20px" alt="" /> WhatsApp, send a Hi, to +91 87579864786</p>
+                            <button className='bg-black text-white font-light  mt-10 mb-28 py-2 md:py-3 px-5 rounded-full lg:px-16' >Post your <span className='font-medium'>Property for Free</span></button>
+                            <p className='flex w-full flex-wrap items-center absolute bottom-0  py-5' >Or post via <img src={whatsappIcon} className='mx-2' width="20px" alt="" /> WhatsApp, send a Hi, to +9187579864786</p>
                         </div>
                         <div className="w-full md:w-5/12">
                             <img src={image} className='w-full  lg:w-10/12 ms-auto' alt="" />

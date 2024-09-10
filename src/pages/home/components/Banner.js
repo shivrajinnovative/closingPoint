@@ -8,7 +8,7 @@ import projectsIcon from "./../../../assets/icons/projects.svg";
 export default function Banner() {
   const FilterBtn = ({ icon, text }) => {
     return (
-      <div className=" bg-white cursor-pointer  rounded-xl w-24 h-24 my-2 text-sm  justify-center items-center  flex flex-col">
+      <div className=" bg-white cursor-pointer  rounded-xl w-28 h-24 my-2 text-sm  justify-center items-center  flex flex-col">
         <img src={icon} alt="" width="40px" />
         <p className="mt-3">{text}</p>
       </div>
@@ -18,7 +18,7 @@ export default function Banner() {
   return (
     <div className="relative">
       <img src={bgImg} className="min-w-fit" alt="" />
-      <div className=" absolute top-52 lg:top-1/3 mt-10 w-full">
+      <div className="absolute top-52 lg:top-1/3 mt-10 w-full">
         <div className="w-screen  max-w-7xl mx-auto flex flex-wrap">
           <div className="w-full pb-20 text-center lg:text-start px-4 lg:w-6/12">
             <h1 className=" text-4xl md:text-6xl text-sky-600 font-bold">
@@ -34,7 +34,7 @@ export default function Banner() {
                 <FilterBtn icon={plotLandIcon} text="Plots/ Land" />
                 <FilterBtn icon={projectsIcon} text="Projects" />
               </div>
-              <div className="mt-2 md:mt-8 bg-white rounded-full p-4">All Res</div>
+              <div className="mt-2 md:mt-8 bg-white rounded-full p-4">All Residential</div>
               <button className="bg-black text-white py-3 px-16 mt-5 md:mt-12   rounded-full ">
                 Search
               </button>

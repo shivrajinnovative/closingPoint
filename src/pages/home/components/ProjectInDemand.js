@@ -4,8 +4,11 @@ export default function ProjectInDemand() {
 
     const Project=()=>{
         return <div className="w-full lg:w-1/3 p-3 ">
-            <div className='shadow-sm bg-white rounded-md group overflow-hidden cursor-pointer hover:shadow'>
+            <div className='shadow-sm bg-white rounded-md group cursor-pointer hover:shadow'>
+                <div className="overflow-hidden">
                 <img src={projectImage} alt="" className='w-full group-hover:scale-105 transition-all duration-200' />
+                </div>
+                
                 <div className='p-4'>
                     <h1 className='font-semibold text-2xl' >Siddhivinayak Signature City</h1>
                     <p className='py-3 text-sm'>1, & 2 Bhk Apartments in Taloja, Navi Mumbai</p>
